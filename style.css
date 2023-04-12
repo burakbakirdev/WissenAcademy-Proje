@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif !important;
+  --bs-gutter-x: 0rem !important;
+}
+
+/* Navbar */
+
+#navbar {
+  padding: 10px;
+  background-color: rgb(59, 59, 59);
+}
+
+#logo {
+  font-size: 2rem;
+  color: rgb(238, 238, 238);
+}
+
+.collapse li {
+  margin: 0 2rem !important;
+}
+
+.navbar-nav a {
+  color: rgb(248, 237, 227) !important;
+  font-size: 1.6rem;
+}
+
+/* Navbar END */
+
+/* Home Section */
+
+#home {
+  width: 100%;
+  background-color: rgb(223, 211, 195);
+}
+
+#company-introduction {
+  background-color: rgb(238, 238, 238);
+  padding: 10px;
+}
+
+#company-introduction h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#company-introduction h4 {
+  padding: 10px 30px;
+}
+
+#carousel {
+  background-color: rgb(223, 211, 195);
+}
+
+#carousel img {
+  width: 100%;
+}
+
+#service-row {
+  background-color: rgb(242, 225, 193);
+  text-align: center;
+  padding: 10px 20%;
+}
+
+#middle-service {
+  border-right: 2px solid grey;
+  border-left: 2px solid grey;
+}
+
+@media screen and (max-width: 768px) {
+  #middle-service {
+    border-left: none;
+    border-right: none;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+  }
+}
+
+/* Home Section END */
+
+/* About Section */
+
+#about {
+  background-color: rgb(238, 238, 238);
+}
+
+#about-sidebar a {
+  color: rgb(59, 59, 59);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* About Section END*/
+
+/* Project Section */
+
+#project {
+  background-color: rgb(183, 211, 182);
+}
+
+#project h1 {
+  color: rgb(59, 59, 59);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#project h3 {
+  font-size: 2rem;
+  color: rgb(59, 59, 59);
+  font-weight: 600;
+}
+
+#project article {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#project .carousel h5 {
+  color: white !important;
+}
+
+#project .carousel img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Project Section END*/
+
+/* Crew Section */
+
+#crew {
+  background-color: rgb(185, 122, 149);
+
+}
+
+#crew h1 {
+  color: rgb(59, 59, 59);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#crew-inner-container{
+    background-color: rgb(194, 176, 201);
+}
+
+#crew .card{
+    background: transparent;
+    border: none;
+    padding: 20px !important;
+}
+
+#crew article{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#crew img{
+    height: 350px;
+    border: 10px solid rgb(59, 59, 59);
+    border-radius: 100%;
+}
+
+#crew button{
+    font-size: 2rem;
+    margin: 0 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+#crew button:hover{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+#crew button span{
+    padding-left: 30px;
+}
+
+/* Crew Section END*/
+
+/* Contact Section */
+
+#contact{
+    background-color: rgb(59, 59, 59);
+}
+
+#contact span{
+    font-size: 3rem;
+}
+
+#head-footer{
+    background-color: rgb(156, 175, 228);
+    text-align: center;
+    align-items: center;
+}
+
+#contact-us-btn{
+    height: 50px;
+    width: 200px;
+}
+
+#contact ul li:first-child{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#contact ul li{
+    color: rgb(196, 196, 196);
+}
+
+#contact ul i{
+    font-size: 1.2rem;
+    color: rgb(196, 196, 196);
+}
+
+/* Contact Section END*/
